@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from '../../imgs/logo.png'
+import Logo from 'public/imgs/logo.png'
 import './Sidebar.css'
 const Sidebar = () => {
     return (
         <div className='Sidebars'>
             {/**LOGO */}
             <div className='logo'>
-                <img src={Logo} alt=" " />
+                <img src="/imgs/logo.png" alt="Logo" />
                 <span>
                     Sh<span>o</span>ps
                 </span>
