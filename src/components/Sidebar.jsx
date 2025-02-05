@@ -11,6 +11,17 @@ const Sidebar = () => {
                     Sh<span>o</span>ps
                 </span>
             </div>
+
+            {/* MENU */}
+            <div className='menu'>
+                <div className='menuItem'>
+                    <div >
+                        Icon
+                    </div>
+                    <span>Dashboard</span>
+                </div>
+
+            </div>
         </div>
     )
 }
