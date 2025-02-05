@@ -3,7 +3,7 @@ import Logo from '../../imgs/logo.png'
 import './Sidebar.css'
 const Sidebar = () => {
     return (
-        <div className='Sidebars'>
+        <div className='Sidebar'>
             {/**LOGO */}
             <div className='logo'>
                 <img src={Logo} alt=" " />
